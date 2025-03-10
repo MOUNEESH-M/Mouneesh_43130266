@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background-color: antiquewhite ;
+        }
+        .header {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(244, 218, 238);
+            text-align: center;
+        }
+        .h1 {
+            margin: 0;
+            padding-top: 28px;
+        }
+        .bio-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .bio {
+            text-align: left;
+        }
+        .profilepic {
+            text-align: right;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        
+        }
+        .profilepic-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+           object-fit: cover;
+           border: 4px solid #333;
+            display: block;
+}
+        .school {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 1400px;
+            height: 295px;
+            border: 2px solid rgb(0, 0, 0);
+            margin-left: 50px;
+        }
+        .topbox {
+            width: 90%;
+            height: 50px;
+            border: 2px solid black;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .box1, .box2 {
+            width: 670px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 0 10px;
+        }
+        .bottom {
+            display: flex;
+        }
+        .lbox1, .lbox2, .lbox3 {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            margin-top: 15px;
+        }
+        .lbox1 {
+            margin-left: 50px;
+            margin-right: 250px;
+        }
+        .lbox2 {
+            margin-right: 250px;
+        }
+        .footer {
+    background-color: rgb(244, 218, 238); 
+    
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+   
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="h1">PROTFOLIO</h1>
+    </div>
+
+    <div class="bio-container">
+        <div class="bio">
+            <h4 style="margin-bottom: 0px;">NAME: MOUNEESH SATHYARAYANAN</h4>
+            <hr style="width: 295px; margin: 0;">
+            <h4 style="margin-bottom: 0px;">REGISTER NUMBER: 43130266</h4>
+            <hr style="width: 228px; margin: 0;">
+            <h4 style="margin-bottom: 0px;">DEPARTMENT: BE ECE</h4>
+            <hr style="width: 180px; margin: 0;">
+            <h4 style="margin-bottom: 0px;">UNIVERSITY: SATHYABAMA UNIVERSITY</h4>
+            <hr style="width: 320px; margin: 0;">
+        </div>
+        <div class="profilepic">
+            <img src="me.jpg" alt="profile pic" class="profilepic-img" >
+        </div>
+    </div>
+
+    <hr style="margin: 10px;">
+
+    <div class="school">
+        <div class="topbox">
+            <p style="text-align: center;">ABOUT SCHOOLING</p>
+        </div>
+        <div class="box-container">
+            <div class="box1">
+                <p style="text-align: center;">ABOUT 10TH</p>
+                <p>During my 10th grade at Zion,I was part of the Computer Science group,where I was introduced to the fundamentals of programming and logical thinking. This phase was crucial in developing my analytical skills and understanding the role of technology in problem-solving. Along with academics, I actively participated in school activities that enhanced my teamwork and leadership abilities. The strong academic foundation and disciplined environment helped me build confidence and a clear vision for my future studies.</p>
+            </div>
+            <div class="box2">
+                <p style="text-align: center;">ABOUT 12TH</p>
+                <p>In my 12th grade, I pursued a specialized curriculum that deepened my knowledge in science and technology. This phase was more challenging and required a higher level of dedication, helping me develop a strong work ethic and time management skills. I explored advanced concepts in my subjects, which strengthened my passion for engineering. The guidance from my teachers and the competitive environment motivated me to push my limits, preparing me for higher education and future career opportunities.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="lbox1">
+            <p style="text-align: center;">TECHINAL SKILLS</p>
+            <ul>
+                <li>HTML5 </li>
+                <li>CSS3 </li>
+                <li>JavaScript</li>
+                <li>python</li>
+                <li>c & c++</li>
+                <li>MATLAB</li>
+                
+            </ul>
+
+        </div>
+        <div class="lbox2">
+            <p style="text-align: center;">HOBBY</p>
+            <ul>
+                <li>Playing Guitar</li>
+                <li>Drawing</li>
+                <li>Playing Chess</li>
+                <li>Listening to Music</li>
+                <li>Playing Cricket</li>
+                <li>Playing Football</li>
+                <li>Playing Badminton</li>
+            </ul>
+            
+        </div>
+        <div class="lbox3">
+            <p style="text-align: center;">EXTRACURRICULAR ACTIVITIES</p>
+            <ul>
+                <li>Participated in coding competitions</li>
+                <li>Volunteered for social initiatives</li>
+                <li>Played in school sports teams</li>
+                <li>Attended technical workshops</li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <p>Contact: 
+        <a href="mailto:yourname@example.com">yourname@example.com</a> | 
+        <a href="tel:+1234567890">+1 234 567 890</a>
+    </p>
+</footer>
+
+</html>

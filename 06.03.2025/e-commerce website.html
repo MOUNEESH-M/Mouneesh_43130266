@@ -1,0 +1,209 @@
+<html lang="en">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            padding: 30px 80px;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Nunito Sans", sans-serif;
+        }
+        .nav-container{
+            width: 100%;
+            height: 50px;
+            background-color: antiquewhite;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid black;
+        }
+    
+        .logo{
+            height: 50px;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            
+        }
+        .logo > p{
+            padding: 5px 10px;
+        }
+        .info{
+            height: 50px;
+            
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+
+        }
+        .info > a{
+            padding: 5px 10px;
+            text-decoration: none;
+            
+            color:midnightblue;
+        }
+        .cart{
+            height: 50px;
+            
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .cart > button,.cart >img{
+            padding: 5px 10px;
+        }
+        .cart >button{
+            border-radius: 20px;
+            background-color: rgba(245, 245, 220, 0);
+        }
+        @media only screen and (max-width: 610px) {
+            
+            .info{
+                display: none;
+            }
+            .poster-info > p {
+                display: none;
+
+            }
+        }
+        .poster-container{
+            margin-top: 30px;
+            width: 80%;
+            height: 400px;
+          
+            border-radius: 20px;
+            margin: 20px;
+            
+        }
+        .poster-info{
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin-top: -320px;
+        }
+        .poster-info > P{
+            max-width: 50%;
+        }
+        .explore-box{
+            width: 80%;
+            
+            border-radius: 20px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .explore-image-container{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            overflow-y: hidden;
+        }
+        .exploreimg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo">
+            <p> brand name</p>
+
+        </div>
+        <div class="info">
+            <a href="">home</a>
+            <a href="">menu</a>
+            <a href="">contact us</a>
+            
+
+        </div>
+        <div class="cart">
+            <img src="bag.png" alt="cart" onclick="">
+            <button>sign up</button>
+
+        </div>
+    </div>
+    <div class="poster-container">
+        
+        <img src="background.jpg" style="object-fit: cover; width: 100%; height: 100%; border-radius: 20px;"/>
+      <div class="poster-info">
+        <h1>Order your favorite food here</h1>
+        <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise.</p>
+        <button class="poster-button">menu</button>
+        </div>
+    </div>
+
+    <div class="explore-box">
+
+        <h1>explore your menu</h1>
+        <p>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+        <div class="explore-image-container">
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+                
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+            <div class="exploreimg">
+                <img src="menu.webp" alt="">
+                <p>dish</p>
+            </div>
+
+    </div>
+    
+    
+
+</body> 
+</script>
+</html> 
